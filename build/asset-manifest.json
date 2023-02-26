@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.73d05435.css",
+    "main.js": "/static/js/main.dc6c71ad.js",
+    "static/js/787.53e40ced.chunk.js": "/static/js/787.53e40ced.chunk.js",
+    "static/media/gp1.png": "/static/media/gp1.b52633cd430d853e0cdc.png",
+    "static/media/cog-outline.svg": "/static/media/cog-outline.21efcecea7782d03e29f9645821006fe.svg",
+    "static/media/grail.svg": "/static/media/grail.941d980e9a58b96933fb0703e8d2f7d6.svg",
+    "index.html": "/index.html",
+    "static/media/logo.svg": "/static/media/logo.c75a4fabefbf6b71182040ca88285185.svg",
+    "static/media/wethEth.svg": "/static/media/wethEth.df265e367364f285053a1285ad8d418d.svg",
+    "static/media/refresh.svg": "/static/media/refresh.042d5acce10a854bfaec77cc79b94fc3.svg",
+    "static/media/dots-horizontal.svg": "/static/media/dots-horizontal.48e4b9715a66a000a27534b7c423674d.svg",
+    "static/media/chevron-down.svg": "/static/media/chevron-down.480f0b976741808f415c87b63550935a.svg",
+    "static/media/swap-vertical.svg": "/static/media/swap-vertical.f8a55ef7981450fa4490115a07384cc0.svg",
+    "main.73d05435.css.map": "/static/css/main.73d05435.css.map",
+    "main.dc6c71ad.js.map": "/static/js/main.dc6c71ad.js.map",
+    "787.53e40ced.chunk.js.map": "/static/js/787.53e40ced.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73d05435.css",
+    "static/js/main.dc6c71ad.js"
+  ]
+}
