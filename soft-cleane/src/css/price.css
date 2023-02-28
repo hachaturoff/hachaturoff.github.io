@@ -1,0 +1,171 @@
+.price {
+    position: relative;
+    /*сама секция*/
+    height: 557px;
+    width: 1024px;
+    background-image: url(../img/back.png);
+    background-color: #43AAFF;
+    border-radius: 30px;
+    margin: 120px auto;
+    overflow: hidden;
+}
+
+.price .container {
+    /*отступ вниз для текста*/
+    padding-top: 39px;
+
+}
+
+.price-header h2 {
+    /*хотите*/
+    font-weight: 800;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-left: 85px;
+}
+
+.price-header span {
+    /*где вам*/
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-left: 85px;
+    margin-top: 45px;
+}
+
+.button_mes {
+    /*родитель кнопок*/
+    display: flex;
+    position: relative;
+    width: 467px;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.button_mes .mes {
+    /*кнопки с мессенджерами*/
+    width: 125px;
+    height: 70px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    margin-top: 19px;
+    margin-right: 9px;
+    align-items: center;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.choose {
+    /*2 кнопки в столбик*/
+    display: block;
+    flex-direction: column;
+}
+
+.choose .input {
+    /*введите ваш телефон*/
+    background-color: #FFFFFF;
+    width: 228px;
+    height: 65px;
+    border-radius: 100px;
+    border: none;
+    margin-top: 15px;
+    margin-left: 80px;
+    font-weight: 600 normal;
+    font-size: 14px;
+    color: #959A9D;
+    /* text-align: center; */
+    padding-left: 47px;
+}
+
+.choose .cash {
+    /**/
+    /*получить прайс*/
+    width: 275px;
+    height: 70px;
+    box-shadow: inset 0px 4px 10px rgba(255, 255, 255, 0.3);
+    background-color: #FFC24D;
+    margin-top: 10px;
+    margin-left: 80px;
+    color: #FFFFFF;
+    padding-top: 5px;
+    font-weight: 600 normal;
+    font-size: 13px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+.fin_text {
+    margin-left: 75px;
+    color: #FFFFFF;
+    font-size: 11px;
+    /*нажимая на*/
+    display: flex;
+    
+}
+.fin_text label{
+    margin-top: 10px;
+}
+
+.fin_text .little-text {
+    /*почему я не вижу весь текст???*/
+    font-weight: 600;
+    font-size: 11px;
+    color: #FFFFFF;
+}
+
+.images .upper-bubble {
+    /*верхние пузыри*/
+    position: absolute;
+    top: 0px;
+    left: 400px;
+    z-index: 1;
+
+}
+
+.images .price-book {
+    /*книга*/
+    position: absolute;
+    left: 320px;
+    top: 0px;
+    z-index: 1;
+}
+
+.images .bubble3 {
+    /*боковые пузыри*/
+    position: absolute;
+    left: 550px;
+    top: 0px;
+    z-index: 2;
+}
+
+.images .kust2 {
+    position: absolute;
+    z-index: 1;
+    top: 415px;
+    left: 798px;
+    z-index: 3;
+    border-radius: 30px;
+    /*куст*/
+}
+
+.images .pdf {
+    /*белый круг - как сделать пдф по кругу*/
+    position: absolute;
+    top: 320px;
+    left: 520px;
+    z-index: 3;
+}
+
+.images .t-pdf {
+    /*синий пдф в центре*/
+    position: absolute;
+    color: #43AAFF;
+    text-align: center;
+    display: block;
+    font-weight: 800;
+    font-size: 20px;
+    z-index: 3;
+    top:340px;
+    left: 555px;
+}

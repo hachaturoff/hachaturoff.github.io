@@ -1,0 +1,238 @@
+.calculator {
+    height: 833px;
+}
+.container { /*нужен ли он тут???*/
+    position: relative;
+    width: 1024px;
+    margin: 0 auto;
+}
+.container .acc_calc {
+    /*текст заголовков*/
+    display: block;
+    position: relative;
+}
+
+.container .acc_calc h2 {
+    /*калькулятор стоимости*/
+    text-align: center;
+    align-items: center;
+    margin-top: 18px;
+    font-weight: 800;
+    font-weight: bold;
+}
+
+.container .acc_calc h3 {
+    /*это бесплатно*/
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    font-weight: 600 ;
+    font-size: 22px;
+    line-height: 150%;
+    color: #959A9D;
+}
+
+.tel_calc{
+    /*синий фон - нет четкой границы фона*/
+    position: relative;
+    width: 1024px;
+    height: 619px;
+    background-image: url(../img/kuhnya-skandinaviya-vid-2-1200x-ca2\ 1.png);
+    background-color: #43AAFF;
+    opacity: 0.9;
+    border-radius: 30px;
+    background-size: auto;
+    overflow: hidden;
+}
+
+.tel_calc .calc_descr {
+    display: flex;
+    flex-direction: column;
+    width: 467px;
+    margin-left: 67px;
+    align-items: center;
+}
+
+.tel_calc .calc_descr h3 {
+    /*отлично!*/
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 150%;
+    margin-top: 100px;
+    
+}
+
+.tel_calc p.little {
+    /*где вам удобнее*/
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 10px;
+}
+
+.button_mes {
+    /*родитель кнопок*/
+    display: flex;
+    position: relative;
+    width: 467px;
+    justify-content: center;
+}
+
+.button_mes .mes {
+    /*кнопки с мессенджерами - почему не по центру??*/
+    width: 183px;
+    height: 70px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-right: 8px;
+    align-items: center;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.choose {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.choose .input {
+    /*введите ваш телефон*/
+    position: relative;
+    background-color: #FFFFFF;
+    width: 328px;
+    height: 70px;
+    border-radius: 100px;
+    border: none;
+    margin-top: 15px;
+    font-weight: 600 normal;
+    font-size: 14px;
+    color: #959A9D;
+    /* text-align: center; */
+}
+
+.choose .cash {
+    /*получить рассчет и бонусы - почему при одинаковых размерах - разные размеры с инпутом???*/
+    width: 375px;
+    height: 70px;
+    box-shadow: inset 0px 4px 10px rgba(255, 255, 255, 0.3);
+    background-color: #FFC24D;
+    margin-top: 10px;
+    color: #FFFFFF;
+    padding-top: 5px;
+    font-weight: 600 normal;
+    font-size: 13px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+.tel_calc .fin_text {
+    display: flex;
+}
+
+.tel_calc p.little_text {
+    font-weight: 600 normal;
+    font-size: 11px;
+    color: #FFFFFF;
+    margin-left: 9px;
+}
+.little_text a {
+    font-weight: 600 normal;
+    font-size: 11px;
+    color: #FFFFFF;
+}
+
+.hand {
+    /*рука с телефоном - как убрать то, что вылазит за фон*/
+    width: 632.51px;
+    height: 624.55px;
+    position: absolute;
+    top: 175px;
+    left: 450px;
+}
+
+.buttom_ellipse {
+    /*нижний белый эллипс*/
+    position: absolute;
+    left: 550px;
+    top: 590px;
+    width: 409px;
+    height: 125px;
+    display: block;
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    text-align: left;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.buttom_ellipse h4 {
+    /*ваши бонусы*/
+    font-weight: 600 normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #43AAFF;
+    padding-left: 25px;
+}
+
+.buttom_ellipse ul {
+    /*список под бонусами*/
+    font-weight: 600 normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #4B5258;
+    margin-top: -20px;
+}
+
+.buttom_ellipse p {
+    /*мелкий серый шрифт под бонусами*/
+    font-weight: 600 normal;
+    font-size: 10px;
+    line-height: 150%;
+    color: #959A9D;
+    padding-left: 40px;
+    margin-top: -15px;
+}
+
+.buttom_ellipse .book {
+    /*книга на эллипсе*/
+    position: absolute;
+    top: 5px;
+    left: 270px;
+    width: 84px;
+    height: 124px;
+    z-index: 3;
+}
+
+.buttom_ellipse .check {
+    /*процент на эллипсе. почему он вылазит???*/
+    position: absolute;
+    top: 50px;
+    left: 340px;
+    width: 87.14px;
+    height: 83.96px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+.fin_text #wrapper {
+    display: flex;
+
+}
+.fin_text #wrapper .container{
+    margin-left: 700px;
+    font-size: 11px;
+    font-weight: 600 normal;
+    color:#FFFFFF;
+}
+.fin_text #wrapper .container a{
+    /* margin-top: 10px; */
+    font-size: 11px;
+    font-weight: 600 normal;
+    color:#FFFFFF;
+}

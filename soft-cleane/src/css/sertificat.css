@@ -1,0 +1,41 @@
+.sertificat .container {
+    height: 600px;
+    width: 1024px;
+}
+.sert-header .sertif {
+font-weight: 400;
+font-size: 30px;
+text-align: center;
+color: #4B5258;
+}
+.sert-header .wash {
+    margin-top: -20px; /*опять минусы(*/
+    font-weight: 400;
+font-size: 22px;
+text-align: center;
+color: #959A9D;
+}
+.sert-photo {
+    position: relative;
+    display: flex;
+    gap:19px;
+    justify-content: center;
+}
+.sert-photo .sert-left, .sert-photo .middle, .sert-photo .sert-right {
+    border-radius: 20px;
+    gap:19px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+}
+.btn-groups {
+    position: relative;
+}
+.btn-groups .btn-left {
+    position: absolute;
+    top:-190px;
+    left: 20px;
+}
+.btn-groups .btn-right {
+    position: absolute;
+    top:-190px;
+    left: 940px;
+}

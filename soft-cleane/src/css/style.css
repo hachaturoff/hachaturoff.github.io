@@ -1,0 +1,41 @@
+@import url(component.css);
+@import url(main.css);
+@import url(bullet.css);
+@import url(menu.css);
+@import url(calculator.css);
+@import url(risk.css);
+@import url(our_job.css);
+@import url(types.css);
+@import url(service.css);
+@import url(price.css);
+@import url(visualisation.css);
+@import url(using.css);
+@import url(photo-cost.css);
+@import url(stuff.css);
+@import url(gift.css);
+@import url(sertificat.css);
+@import url(auto.css);
+@import url(questions.css);
+
+@font-face {
+    font-family: 'Mont';
+    font-weight: 400;
+    src: url(../font/Mont-Regular.ttf);
+}
+@font-face {
+    font-family: 'Mont';
+    font-weight: 800;
+    src: url(../font/Mont-Bold.ttf);
+}
+
+* {
+    
+    font-family: 'Mont', sans-serif;
+    font-weight: 400;
+}
+body {
+    margin: 0px;
+    /* background-color: black; */
+}
+
+

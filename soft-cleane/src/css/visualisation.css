@@ -1,0 +1,179 @@
+.visualisation {
+    position: relative;
+    height: 882px;
+    background-color: #F2F9FF;
+    
+}
+.clean .look {
+    font-weight: 600;
+font-size: 30px;
+text-align: center;
+color: #4B5258;
+}
+.clean .eyes {
+    font-weight: 600;
+font-size: 22px;
+text-align: center;
+color: #959A9D;
+}
+.visualisation .wrapper {
+    width: 621px;
+    background-color:#FFFF;
+    border: none;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    gap: 0;
+    margin: 0 auto;
+}
+.visualisation .wrapper .menu-btn{
+    height: 70px;
+    font-weight: 600 normal;
+    font-size: 14px;   
+}
+.wrapper .menu-btn:hover{    
+    background-color:#FFC24D;
+    color: white;
+}
+.picture .spalnya{
+    margin-top: 20px;
+    border-radius: 30px;
+}
+.picture {
+    position: relative;
+}
+
+.picture .side-information { /*где остальные эллипсы???*/
+    position: absolute;
+    z-index: 2;
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    min-width: 114px;
+    height: 70px;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: left;
+    color: #4B5258;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.picture .side-information.cerful{ /*где остальные эллипсы???*/
+    top: 100px;
+    left: 150px;
+    width: 187px;
+}
+
+.picture .side-information.qwe{ /*где остальные эллипсы???*/
+    top: 270px;
+    left: 90px;
+    text-align: center;
+    padding-left: 5px;
+    width: 129px;
+}
+.picture .side-information.asd{ /*где остальные эллипсы???*/
+    top: 430px;
+    left: 50px;
+    text-align: center;
+    padding-top: 15px;
+    padding-left: 10px;
+    width: 114px;
+    height: 50px;
+}
+.picture .side-information.zxc{ /*где остальные эллипсы???*/
+    top: 300px;
+    left: 400px;
+    text-align: center;
+    width: 165px;
+    padding-top: 18px;
+    padding-left: 10px;
+    height: 52px;
+}
+.picture .side-information.wer{ /*где остальные эллипсы???*/
+    top: 460px;
+    left: 360px;
+    text-align: center;
+    padding-top: 18px;
+    padding-left: 10px;
+    width: 174px;
+    height: 50px;
+}
+.picture .side-information.sdf{ /*где остальные эллипсы???*/
+    top: 280px;
+    left: 660px;
+    width: 171px;
+}
+.picture .side-information.xcv{ /*где остальные эллипсы???*/
+    top: 100px;
+    left: 700px;
+    text-align: center;
+    padding-top: 18px;
+    height: 52px;
+    padding-left: 10px;
+
+    width: 123px;
+}
+.picture .side-information.zbm{ /*где остальные эллипсы???*/
+    top: 420px;
+    left: 750px;
+    width: 133px;
+    height: 82px;
+}
+.picture .side-information .little-elips {
+    position: absolute;
+    /* left: 46%;
+    top: -10px; */
+    width: 10px;
+    height: 10px;
+    display: block;
+    border-radius: 20px;
+    background-color: white;
+    border: solid 5px  #43AAFF;
+    z-index: 3;
+}
+.side-information .little-elips.first, .little-elips.third, .little-elips.fourth, .little-elips.fifth, .little-elips.sixth, .little-elips.seventh {
+    left: -10px;
+    top:26px;
+}
+.side-information .little-elips.second {
+    left: 55px;
+    top:70px;
+    width: 10px;
+    height: 10px;
+}
+.side-information .little-elips.eightth {
+    left: 140px;
+    top:35px;
+}
+
+.topshape { /*нижний полукруг*/
+    position: absolute;
+    top: -65px; /*почему выравнивается только через минус???*/
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+}
+    
+.visualisation .lowershape { /*нижний полукруг*/
+    
+    position: absolute;
+    /* bottom: -30px; */
+    top: 20%;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+    /* left: 200px; */
+}
+
+.small-elips .little_line {
+    position: absolute;
+    background-color:#43AAFF;
+    width: 20px;
+    height: 3px;
+    border: none;
+    margin-left: 120px;
+    margin-top:-8px;
+}

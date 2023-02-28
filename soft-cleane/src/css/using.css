@@ -1,0 +1,100 @@
+.using {
+    position: relative;
+    /*сама секция*/
+    margin-top: 150px;
+    padding-bottom: 100px;
+}
+.using .container {
+    width: 1024px;
+    margin: 0 auto;
+}
+.using-header h2 {
+    font-weight: 600 normal;
+font-size: 30px;
+text-align: center;
+color: #4B5258;
+}
+.using-header h3 {
+    font-weight: 600 normal;
+font-size: 22px;
+text-align: center;
+color: #959A9D;
+margin-top: 10px;
+}
+.bath {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    width: 1024px;
+    height: 450px;
+    background-color:#FFF;
+    border-radius:30px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+}
+.bath .vertical-line {
+    position: absolute;
+    width: 3px;
+    height: 430px;
+    background-color:#FFF;
+    border:none;
+    top:5px;
+    left:280px;
+}
+.bath .change {
+    border-radius:30px;
+    margin: 15px 0; 
+}
+.decoration {
+    position: relative;
+}
+.decoration .yel-ellips {
+    position: absolute;
+    left:-327px;
+    top:200px
+}
+.decoration .vector1 {
+    position: absolute;
+    left:-309px;
+    top:220px;
+}
+.decoration .vector2 {
+    position: absolute;
+    left:-295px;
+    top:228px;
+    transform: rotate(180deg);
+}
+.bath .object h3 {
+font-weight: 800;
+font-size: 20px;
+color: #4B5258;
+margin-top: 61px;
+}
+.object .bold-style {
+    font-weight: 600;
+font-size: 14px;
+color: #4B5258;
+}
+.object p {
+    font-weight: 600 normal;
+font-size: 14px;
+color: #959A9D;
+}
+.using .cost {
+    width: 206px;
+    height: 60px;
+    margin-top: 13px;
+    background-color: #FFFF;
+    border: solid 2px #43AAFF;
+    color: #43AAFF;
+    padding-top: 5px;
+    font-weight: 800;
+font-size: 14px;
+}
+.using .white-shape{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    bottom: -54px;
+    z-index: 1;
+    transform: rotate(180deg);
+}

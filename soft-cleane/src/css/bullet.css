@@ -1,0 +1,31 @@
+.wrapper  {
+    margin-top: 73px;
+    display: flex;
+    gap: 10px;
+}
+.wrapper .item {
+    position: relative;
+    display: flex;
+    background-color: #43AAFFFF;
+    width: 250px;
+    height: 150px;
+    border-radius: 30px;
+    overflow: hidden;
+    font-size: 14px;
+    color: white;
+    align-items: center;
+}
+.wrapper .item.elow{
+    background-color: #FFC24D;
+}
+
+.wrapper .item .descr{
+    margin-left: 25px;
+}
+.wrapper .item .img{
+    position: absolute;
+    left: 140px;
+    top: 30px;
+
+
+}

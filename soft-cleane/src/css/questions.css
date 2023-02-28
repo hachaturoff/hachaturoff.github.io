@@ -1,0 +1,75 @@
+.questions {
+    height: 650px;
+}
+.auto .container {
+    height: 465px;
+    width: 1024px;
+}
+.mean {
+    font-weight: 400;
+font-size: 30px;
+color: #4B5258;
+text-align: center;
+}
+.btn-groups {
+    position: relative;
+}
+.btn-groups .quest {
+    width: 996px;
+height: 60px;
+background: #FFFFFF;
+box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+border-radius: 20px;
+margin-top: 10px;
+font-weight: 400;
+font-size: 14px;
+color: #4B5258;
+padding-top: 10px;
+text-align: left;
+padding-left: 30px;
+}
+.quest-footer {
+    display: flex;
+    margin-top: 20px;
+}
+.quest-footer .mes-pic{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.quest-footer .mes-pic .link-tele{
+    margin-right: 10px;
+}
+.btn-groups .d-first {
+position: absolute;
+top:5px;
+left: 920px;
+}
+.btn-groups .d-second {
+    position: absolute;
+    top:75px;
+    left: 920px;
+}
+.btn-groups .d-third {
+    position: absolute;
+    top:145px;
+    left: 920px;
+}
+.btn-groups .d-fourth {
+    position: absolute;
+    top:215px;
+    left: 920px;
+}
+.btn-groups .d-fifth {
+    position: absolute;
+    top:285px;
+    left: 920px;
+}
+.quest-footer .low {
+    font-weight: 400;
+font-size: 12px;
+text-align: right;
+color: #4B5258;
+margin-top: 45px;
+margin-left: 50px;
+}

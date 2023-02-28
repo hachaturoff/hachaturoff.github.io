@@ -1,0 +1,74 @@
+.photo-cost {
+    position: relative;
+    width:100%;
+    background: url(../img/back-flat.png) no-repeat 50% / cover; /*если сюда добавить no repeat, то оно не растянется на весь экран, а с cover - пропадает*/
+    /* background-size: 100%; */
+}
+.photo-cost .container {
+    
+    height: 846px;
+    width: 1024px;
+}
+.photo-header h2 {
+    margin-top: 100px;
+    font-weight: 600 normal;
+font-size: 30px;
+color: #4B5258;
+margin-bottom: 10px;
+}
+.photo-header h3 {
+    font-weight: 600 normal;
+font-size: 22px;
+color: #959A9D;
+}
+.connect .elips {
+    width: 352px;
+    height: 243px;
+    margin-top: 41px;
+}
+.connect-header h4 {
+    font-weight: 400;
+font-size: 16px;
+color: #4B5258;
+margin-top: 33px;
+
+}
+.connect-header .btn-group {
+    display: flex;
+    gap: 10px;
+    margin-left: 30px;
+}
+.btn-group .tele {
+    width: 125px;
+    height: 70px;
+    background-color: #43AAFF;
+    border: none;
+    padding-top: 5px;
+    border-radius: 20px;
+}
+.btn-group .whu {
+    width: 125px;
+    height: 70px;
+    background-color: #7AD06D;
+    border: none;
+    padding-top: 5px;
+    border-radius: 20px;
+}
+.connect-header .alarm {
+    position: absolute;
+    left:40px;
+    top: 180px;
+}
+.connect-header p {
+    margin-left: 70px;
+}
+.photo-cost .hands {
+    position: absolute;
+    top: 147px;
+    left: 300px;
+}
+.lower-white-shape {
+    position: absolute;
+    top: 755px;
+    width: 100%;
+}

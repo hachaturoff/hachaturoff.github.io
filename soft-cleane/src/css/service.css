@@ -1,0 +1,120 @@
+.service .container {
+    width: 1024px;
+    padding-top: 120px;
+    min-height: auto;
+}
+
+.service-header .find { /*кнопка - не нашли...*/
+    width: 384px;
+height: 55px;
+background: #FFC24D;
+margin: 0 auto;
+padding-top: 5px;
+color: #FFFFFF;
+font-weight: 600;
+font-size: 22px;
+}
+
+.service-header h2 { /*посмотрите доп*/
+    font-weight: 600;
+font-size: 30px;
+text-align: center;
+color: #4B5258;
+margin-top: 20px;
+}
+
+.service-header h4 { /*устраним любой каприз*/
+    font-weight: 600;
+font-size: 22px;
+text-align: center;
+margin-top: 10px;
+color: #959A9D;
+}
+
+.upper-string, .middle-string, .lower-string { /*родители элипсов*/
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+/* .small-elips .line { я очень не уверена, что это правильно
+    position: relative;
+    left: 60px;
+} */
+.variants { /*картинки*/
+    position: absolute;
+    border-radius: 100px;
+    margin-top: 22px;
+    margin-left: 22px;
+}
+.small-elips h6 { /*заглавие в эллипсах*/
+    font-weight: 600;
+font-size: 14px;
+color: #4B5258;
+margin-top: 39px;
+margin-left: 125px;
+}
+.small-elips p { /*цена*/
+    font-weight: 800;
+    font-size: 16px;
+    margin-left: 151px;
+    margin-top: -20px; /*почему опять минус?? */
+    color: #43AAFF;
+}
+
+.white-elips { /*белый эллипс*/
+    width: 1025px;
+height: 257px;
+background: #FFFFFF;
+box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+border-radius: 30px;
+}
+.white-elips h3 { /*закажите 3*/
+font-weight: 600;
+font-size: 20px;
+color: #4B5258;
+text-align: left;
+padding-top: 51px;
+margin-left: 59px; 
+
+}
+.white-elips .blue-text { /*и получите*/
+    color: #43AAFF;
+    font-weight: 600;
+font-size: 20px;
+}
+.white-elips .order { /*синяя кнопка*/
+    width: 275px;
+height: 70px;
+background: #43AAFF;
+box-shadow: inset 0px 4px 10px rgba(255, 255, 255, 0.3);
+border-radius: 100px;
+color: #FFFFFF;
+font-weight: 600;
+font-size: 13px;
+letter-spacing: 0.15em;
+text-transform: uppercase;
+padding-top: 5px;
+margin-left: 66px;
+}
+.white-elips .leaves { /*листья*/
+    position: absolute;
+    z-index: 1;
+    top:740px;
+    left: 450px;
+}
+.white-elips .digit1 { /*один*/
+    position: absolute;
+    top: 755px;
+    left: 798px;   
+}
+.white-elips .digit3 { /*три*/
+    position: absolute;
+    top: 740px;
+    left: 500px;
+}
+.white-elips .plus { /*плюс*/
+    position: absolute;
+    top: 855px;
+    left: 730px;
+}
+

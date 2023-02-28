@@ -1,0 +1,259 @@
+.main {
+    position: relative;
+    height: 655px;
+}
+
+.container {
+    position: relative;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.girl {
+    /*картинка с женщиной*/
+    display: block;
+    position: absolute;
+    top: 36px;
+    left: 150px;
+    z-index: -1;
+}
+
+.bubles {
+    /*картинка с пузырьками*/
+    position: absolute;
+    left: 380px;
+    top: 410px;
+    opacity: .5;
+    z-index: -1;
+
+}
+
+.logo-fire {
+    /*логотип с огнем*/
+    position: relative;
+    width: 48px;
+    height: 62px;
+    margin-top: 18px;
+}
+
+.header {
+    /**/
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+
+.logo {
+    /**/
+    display: flex;
+    position: relative;
+}
+
+.logo .logo-prescr {
+    /*родитель названия*/
+    display: block;
+    position: relative;
+}
+
+.logo .logo-prescr h3 {
+    color: #43AAFF;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 30px;
+    text-align: left;
+    margin-bottom: 2px;
+    /*Soft Clean*/
+}
+
+.logo .logo-prescr p {
+    /*Бережная уборка*/
+    color: #959A9D;
+    width: 100px;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 140%;
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+.header .tel {
+    /*родитель телефона*/
+    display: block;
+    position: relative;
+    margin-left: 150px;
+}
+
+.header .tel p.TEL {
+    /*телефон*/
+    font-size: 18px;
+    margin-top: 27px;
+    /*Soft Clean */
+    color: #4B5258;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.header .tel p.sched {
+    /*расписание*/
+    font-size: 14px;
+    color: #959A9D;
+    text-align: center;
+    margin-top: -12px;
+    margin-left: 20px;
+}
+
+.header .tel .circle {
+    /*зеленый круж*/
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #20FF87;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+
+.header .messenger {
+    /*родитель быстрой связи*/
+    display: flex;
+    margin-left: 48px;
+}
+
+.header .messenger p {
+    /*быстрая связь*/
+    width: 140px;
+    font-size: 12px;
+    line-height: 140%;
+    text-align: right;
+    margin-top: 30px;
+    color: #4B5258;
+}
+
+.header .messenger .mess {
+    /*родитель иконок мессенджеров*/
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+
+
+.header .kons {
+    /*кнопка заказать консультацию*/
+    display: block;
+    border-radius: 100px;
+    border: 1px solid #43AAFF;
+    background-color: white;
+    width: 200px;
+    height: 55px;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    color: #4B5258;
+    margin-top: 25px;
+    margin-left: 40px;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+.promo {
+    z-index: 1;
+}
+.promo .middle-txt {
+    /*бережная уборка*/
+    width: 565px;
+    height: 135px;
+    font-weight: 800;
+    font-size: 30px;
+    color: #4B5258;
+    margin-top: 80px;
+    font-style: bold;
+}
+
+.promo .middle-txt .first {
+    /*по фикс стоимости*/
+    font-weight: 400;
+}
+
+.promo .middle-txt .second {
+    /*с гарантией*/
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.promo .little-text {
+    /*выберите вид*/
+    color: #4B5258;
+    width: 453px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    margin-top: 60px;
+}
+
+.promo .little-text .sale {
+    /*скидка 10%*/
+    font-weight: 800;
+}
+
+.promo .botton {   /*родитель кнопок*/
+    display: flex;
+}
+
+
+.promo .botton .count {
+    color: white;
+    background-color: #43AAFF;   /*синяя кнопка*/
+    width: 297px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.promo .botton .choose {
+    color: white;
+    background-color: #FFC24D;    /*желтая кнопка*/
+    width: 250px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    margin-left: 16px;
+}
+
+.side-information {
+    position: absolute;
+    left: 750px;
+    top: 380px;
+    display: block;
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    width: 178px;
+    height: 75px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    color: #4B5258;
+    padding-top: 5px;
+}
+
+.side-information .sum {
+    color: #43AAFF;
+}
+.side-information .elips {
+    position: absolute;
+    left: 46%;
+    top: -10px;
+    width: 10px;
+    height: 10px;
+    display: block;
+    border-radius: 20px;
+    background-color: white;
+    border: solid 5px  #43AAFF;
+}
+.main .shape {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 85%;
+}

@@ -1,0 +1,262 @@
+.risk {
+    margin-top: 30px;
+    height: 989px;
+    background-color: #F2F9FF;
+    z-index: -1;
+    position: relative;
+}
+
+.container {
+    /*нужен ли он тут???*/
+    position: relative;
+    width: 1024px;
+    margin: 0 auto;
+    padding-top: 35px;
+}
+
+.caption .caption_btn {
+    /*А вы знали?? - как опустить ее немного ниже - двигается вместе с фоном*/
+    width: 230px;
+    height: 55px;
+    background-color: #FFC24D;
+    padding-top: 3px;
+    margin: 0 auto;
+    font-weight: 600 normal;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    text-transform: none;
+}
+
+.caption h2 {
+    /*70%*/
+    font-weight: 600 normal;
+    font-size: 30px;
+    line-height: 150%;
+    text-align: center;
+    color: #4B5258;
+    margin-top: 20px;
+}
+
+.caption .discomfort {
+    /*подвергают своих клиентов*/
+    font-weight: bold;
+}
+
+.caption h3 {
+    /*и вот некоторые факты*/
+    font-weight: 600 normal;
+    font-size: 22px;
+    line-height: 150%;
+    text-align: center;
+    color: #959A9D;
+    margin-top: -10px;
+}
+
+.upper-wrapper {
+    /*родитель эллипсов*/
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    /*почему между ними не одинаковое расстояние*/
+    margin: 50px auto;
+}
+
+.first .elips,
+.second .elips,
+.third .elips {
+    /*эллипсы*/
+    width: 328px;
+    height: 360px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    filter: drop-shadow(0px 10px 15px rgba(0, 0, 0, 0.1));
+}
+
+.elips .casher {
+    /*терминал*/
+    position: relative;
+    border-radius: 30px;
+    top: -225px;
+}
+
+.elips .bill {
+    /*слишком здоровенные маргины*/
+    /*большой чек*/
+    position: relative;
+    filter: drop-shadow(0px 10px 15px rgba(0, 0, 0, 0.1));
+    transform: rotate(2.49deg);
+    left: 120px;
+}
+
+.elips .bill2 {
+    /*маленький чек*/
+    filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.1));
+    transform: rotate(2.49deg);
+    border-radius: 30px;
+    position: relative;
+    top: -335px;
+    left: 30px;
+}
+
+.elips h4 {
+    /*заголовки в трех эллипсах*/
+    position: relative;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 140%;
+    color: #4B5258;
+    margin-left: 45px;
+    margin-top: -30px;
+}
+
+.elips p {
+    /*абзацы в трех эллипсах*/
+    position: relative;
+    font-weight: 600 normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #4B5258;
+    margin-left: 45px;
+}
+
+.first .elips h4 {
+    /*заголовок первого эллипса - был где-то на заднем фоне, пришлось его делать отдельно*/
+    position: absolute;
+    top: 220px;
+}
+
+.first .elips p {
+    /*абзац первого эллипса - был где-то на заднем фоне, пришлось его делать отдельно*/
+    position: absolute;
+    top: 230px;
+}
+
+.elips .pan {
+    /*сковорода*/
+    border-radius: 30px;
+}
+
+.elips .comet {
+    /*комет*/
+    position: absolute;
+    top: 20px;
+    left: 208px;
+
+}
+
+.elips .forbid {
+    /*знак запрещено*/
+    position: absolute;
+    left: 160px;
+    opacity: 0.3;
+    border-radius: 30px;
+}
+
+.elips .rubbish {
+    /*мусор возле метлы*/
+    position: absolute;
+    left: 100px;
+    top: 60px;
+    transform: matrix(0.96, -0.27, -0.27, -0.96, 0, 0);
+}
+
+.elips .broom {
+    /*метла*/
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.1));
+}
+
+.lower-wrapper {
+    /*нижние эллипсы - родитель*/
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    /*нет расстояния между эллипсами*/
+}
+
+.long .elips {
+    /*белый нижний эллипс*/
+    width: 676px;
+    height: 180px;
+    background-color: #FFFFFF;
+    filter: drop-shadow(0px 10px 15px rgba(0, 0, 0, 0.1));
+    border-radius: 30px;
+}
+
+.elips .wake-up {
+    /*будильник*/
+    position: absolute;
+    top: 10px;
+}
+
+.elips .exclamation {
+    /*воскл знак*/
+    position: absolute;
+    left: 115px;
+}
+
+.short .elips {
+    /*синий эллипс*/
+    width: 328px;
+    height: 180px;
+    background: #43AAFF;
+    border-radius: 30px;
+    text-align: left;
+}
+
+.long .elips h4 {
+    /*заголовок в белом эллипсе*/
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 140%;
+    color: #4B5258;
+    margin-left: 240px;
+    padding-top: 80px;
+}
+
+.long .elips p {
+    /*абзац в белом эллипсе*/
+    font-weight: 600 normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #4B5258;
+    margin-left: 240px;
+    margin-top: -20px;
+}
+
+.short .elips h4 {
+    /*заголовок в синем эллипсе*/
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 140%;
+    color: #FFFFFF;
+    padding-top: 70px;
+}
+
+.short .elips p {
+    /*абзац в синемэллипсе*/
+    position: absolute;
+    font-weight: 600 normal;
+    font-size: 11px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-top: -5px;
+
+}
+
+.short .elips a {
+    /*посмотреть договор*/
+    position: absolute;
+    color: #FFFFFF;
+    text-decoration: underline;
+    font-weight: 600 normal;
+    font-size: 11px;
+    margin-top: 55px;
+    margin-left: 45px;
+}
+
+.risk .sheip {
+    position: absolute;
+    top: -80px;
+    width: 100%;
+}

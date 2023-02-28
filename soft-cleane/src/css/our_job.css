@@ -1,0 +1,190 @@
+.our_job {
+    position: relative;
+    height: 989px;
+    /* background-color:#F2F9FF; */
+       /*   КАК БЕЗ НЕГО УБРАТЬ ЗАЗОР*/
+       /* background-color: #F2F9FF; */
+    padding-bottom: 206px;
+}
+.work h2 { /*наша работа*/
+font-weight: 600 normal;
+font-size: 30px;
+line-height: 150%;
+text-align: center;
+color: #4B5258;
+}
+.work .proff { /*на проф-ме*/
+    font-weight: bold;
+}
+.work .btn { /*почему текст все еще жирный????*/
+font-size: 16px;
+line-height: 150%;
+font-weight: 400 ;
+text-align: center;
+margin: 31px auto;
+align-items:center;
+padding-top: 5px;
+background-color: #FFC24D;
+color: #FFFFFF;
+}
+.advantage { /*родитель эллипсов*/
+    display: flex;
+    justify-content: space-around;
+}
+.elips .check1 { /*птичка картинка*/
+    position: absolute;
+    margin-top: 19px;
+    margin-left: -25px;
+    overflow: hidden; 
+    z-index: 2;
+}
+.elips .board { /*клипбоард*/
+    z-index: 1;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: -20px;
+    overflow: hidden; 
+}
+.elips .main-first, .elips .main-second, .elips .main-third { /*заголовки эллипсов*/
+    position: absolute;
+    top:210px;
+}
+.elips .subfirst, .elips .subsecond, .elips .subthirdt { /*абзацы эллипсов*/
+    position: absolute;
+    top: 200px;
+}
+.elips .hypoal { /*перо*/
+    position: absolute;
+    mix-blend-mode: hard-light;
+    opacity:0.9;
+    z-index: 1;
+    left:80px
+}
+.elips .bottle2 { /*бутылка2*/
+    position: absolute;
+    z-index: 2;
+    top:40px;
+    left:110px;
+}
+.elips .bottle1 { /*бутылка1*/
+    position: absolute;
+    z-index: 3;
+    left: 10px;
+    top:10px;
+}
+.elips .shield { /*щит*/
+    position: absolute;
+    left:64px;
+    top:33.37px;
+}
+
+.blue-elips { /*заблюр фон*/
+    padding-left: 59px;
+    padding-top: 59px;
+    max-width:1024px;
+    height:278px;
+    
+    background-image: url(../img/kust-back.png);
+    filter: drop-shadow(0px 10px 15px rgba(0, 0, 0, 0.1));
+    background-color: #43AAFF;
+    /* opacity: 0.6; */
+    border-radius: 30px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.blue-elips .bubles2 { /*пузыри*/
+    position: absolute;
+    left: 645px;
+    top:0px;
+    z-index: 2;
+}
+.blue-elips .girl2 { /*женщина*/
+    position: absolute;
+    z-index: 3;
+    left: 600px;
+} 
+.blue-elips .kust { /*куст*/
+    position: absolute;
+    z-index: 2;
+    margin-top: 135px;
+    left:855px;
+    border-radius: 30px;
+}
+
+.blue-elips .descr h3 { /*на консульт*/
+    
+    font-weight: 800 normal;
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+.blue-elips .dif-w { /*оставьте заявку*/
+    font-weight: bold;
+}
+
+.blue-elips .wrap {
+    display: flex;
+    
+}
+
+.blue-elips .wrap .input { /*введите ваш телефон*/
+   
+   
+    background-color: #FFFFFF;
+    width: 245px;
+    height: 70px;
+    border-radius: 100px;
+    border: none;
+    
+    
+    font-weight: 600 normal;
+    font-size: 14px;
+    line-height: 100%;
+    color: #959A9D;
+    padding-left: 47px;
+}
+.blue-elips .wrap .wait { /*жду звонка*/
+    width: 275px;
+    height: 70px;
+    margin-left: 10px;
+    
+    
+    
+    
+    font-weight: 600 normal;
+    font-size: 13px;
+    line-height: 150%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+text-align: center;
+align-items:center;
+padding-top: 5px;
+background-color: #FFC24D;
+color: #FFFFFF;
+}
+
+.blue-elips .police_w  { /*политика*/
+    margin-top: 10px;
+    
+}
+.blue-elips .police_w .policy { /*политика*/
+   
+    color: #FFFFFF;
+    font-weight: 600 normal;
+    font-size: 11px;
+}
+.our_job .lowershape { 
+    position: absolute;
+    /* bottom: -30px; */
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    /* left: 200px; */
+}
+.police_w .policy-line { /*политика*/
+text-decoration: none;
+color: #FFFFFF;
+    font-weight: 600 normal;
+    font-size: 11px;
+}
